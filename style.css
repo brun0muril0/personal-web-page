@@ -135,7 +135,7 @@
 section{
     padding: 100px 0;
 }
-.about{
+.about, .services{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -149,7 +149,7 @@ section{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.about .tittle::before{
+section .tittle::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -160,7 +160,7 @@ section{
     transform: translateX(-50%);
 }
 
-.about .tittle::after{
+section .tittle::after{
     content: "who I am";
     position: absolute;
     bottom: -12px;
@@ -215,6 +215,12 @@ section{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
+}
+
+/* services section styling */
+
+.services{
+
 }
 
 /* responsive media query start */
