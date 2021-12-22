@@ -39,7 +39,7 @@ html{
 
 .navbar .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
     
 }
@@ -392,7 +392,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "who with me";
+    content: "what i know";
 }
 .skills .carousel .card{
     background: #222;
@@ -488,6 +488,11 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+}
+.contact .contact-content .left .social{
+    display: inline;
+    font-size: 30px;
+    color: #111;
 }
 .contact .right form .fields{
     display: flex;
